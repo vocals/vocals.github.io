@@ -1,0 +1,53 @@
+html {
+	font-family: sans-serif;
+	font-size: calc(1em + 1vmax);
+	line-height: 1.618;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+	margin: 0;
+	overflow-wrap: anywhere;
+}
+
+h1 { font-size: 1.618em }
+h2 { font-size: 1.236em }
+em,
+abbr { 
+  font-style: unset;
+  font-weight: bolder;
+}
+
+del {
+  font-weight: lighter;
+}
+
+header,
+footer,
+article {
+  margin: 0;
+  padding: 1em;
+  padding-block: 1em 2em;
+  padding-inline: 3ch 2ch;
+}
+
+a {
+  display: inline-block;
+}
+
+a[class] {
+  padding: .333rem;
+}
+
+header {
+  
+}
+
+h1 {
+
+}
+
+header p {
+  margin: 0;
+}
